@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost in the Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="scanlines"></div>
+
+    <main class="terminal">
+        <header class="terminal-header">
+            <div class="lights">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="title">
+                👻 GHOST IN THE MACHINE
+            </div>
+
+            <div class="status">
+                <span id="statusDot"></span>
+                <span id="statusText">LOCAL</span>
+            </div>
+        </header>
+
+        <section id="terminalOutput" class="terminal-output">
+            <div class="system">
+                [SYSTEM] Initializing GhostShell...
+            </div>
+
+            <div class="system">
+                [SYSTEM] Searching for the spirit inside the machine...
+            </div>
+
+            <div class="ghost">
+                👻 Ghost: "I am awake."
+            </div>
+
+            <div class="system">
+                [SYSTEM] Type <b>help</b> to see available commands.
+            </div>
+        </section>
+
+        <form id="commandForm" class="command-line">
+            <span class="prompt">visitor@ghost:~$</span>
+
+            <input
+                id="commandInput"
+                type="text"
+                autocomplete="off"
+                autofocus
+                placeholder="Enter a command..."
+            >
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
