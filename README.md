@@ -1,30 +1,34 @@
 # 👻 Ghost in the Machine
 
-> A spooky terminal experience inspired by the Hacktoberfest 2026
-> "Ghost in the Machine" theme.
+> A spooky local-AI terminal built for Hacktoberfest 2026 Week 4.
 
-Ghost in the Machine is a small open-source web project that turns a
-simple terminal interface into a spooky interactive experience.
+**Ghost in the Machine** is a small interactive terminal where a mysterious ghost responds to the user using a locally running open-weight AI model.
 
-Type commands and communicate with the mysterious "ghost" living inside
-the machine.
+Instead of sending conversations to a cloud AI service, the project can connect directly to a local Ollama model running on the user's computer.
 
 ## ✨ Features
 
+- 👻 AI-powered spooky ghost
+- 🧠 Local open-weight AI
+- 🔒 Local inference
 - 🖥️ Terminal-style interface
-- 👻 Interactive ghost responses
 - 🌑 Dark spooky design
 - 📱 Responsive layout
-- ⚡ No framework required
-- 🔓 Completely open-source
-- 🌐 Runs directly in a browser
+- ⚡ HTML, CSS and JavaScript only
+- 🔓 Open-source
+- 💻 No backend server required for the project itself
 
-## 🎮 Commands
+## 🧠 How It Works
 
 ```text
-help
-ghost
-whoami
-about
-ls
-clear
+User
+  ↓
+Ghost Terminal
+  ↓
+JavaScript
+  ↓
+Ollama
+  ↓
+Local Open-Weight Model
+  ↓
+Ghost Response
